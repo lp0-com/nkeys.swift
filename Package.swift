@@ -7,7 +7,8 @@ let package = Package(
     name: "NKeys",
     platforms: [
         .watchOS(.v6),
-        .macOS(.v10_15)
+        .macOS(.v13),
+        .iOS(.v13),
     ],
 
     products: [
