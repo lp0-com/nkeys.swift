@@ -18,7 +18,7 @@ let package = Package(
             targets: ["NKeys"])
     ],
     dependencies: [
-        .package(url: "https://github.com/lp0-com/Base32", from: "5655ba0"),
+        .package(url: "https://github.com/lp0-com/Base32", .branch("main")),
         .package(url: "https://github.com/jedisct1/swift-sodium.git", from: "0.9.0"),
         .package(url: "https://github.com/apple/swift-format.git", from: "0.509.0")
     ],
